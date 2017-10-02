@@ -1,0 +1,380 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Signatum version v1.0.0.0-g32a928e (2017-09-29 15:39:13 +0500)
+Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+Startup time: 10/02/17 05:53:48
+Default data directory /home/bh/.signatum
+Used data directory /home/bh/.signatum
+init message: Verifying database integrity...
+dbenv.open LogDir=/home/bh/.signatum/database ErrorFile=/home/bh/.signatum/db.log
+Bound to [::]:6666
+Bound to 0.0.0.0:6666
+init message: Loading block index...
+Opening LevelDB in /home/bh/.signatum/txleveldb
+Opened LevelDB successfully
+SetBestChain: new best=242a87ff77a02f7d322dc5b60f7a90c7561135587f8454583b6efe844a34ca9a  height=0  trust=1048577  blocktrust=1048577  date=10/02/17 05:44:20
+ block index              10ms
+init message: Loading wallet...
+nFileVersion = 1000000
+Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+Performing wallet upgrade to 60000
+keypool added key 1, size=1
+keypool added key 2, size=2
+keypool added key 3, size=3
+keypool added key 4, size=4
+keypool added key 5, size=5
+keypool added key 6, size=6
+keypool added key 7, size=7
+keypool added key 8, size=8
+keypool added key 9, size=9
+keypool added key 10, size=10
+keypool added key 11, size=11
+keypool added key 12, size=12
+keypool added key 13, size=13
+keypool added key 14, size=14
+keypool added key 15, size=15
+keypool added key 16, size=16
+keypool added key 17, size=17
+keypool added key 18, size=18
+keypool added key 19, size=19
+keypool added key 20, size=20
+keypool added key 21, size=21
+keypool added key 22, size=22
+keypool added key 23, size=23
+keypool added key 24, size=24
+keypool added key 25, size=25
+keypool added key 26, size=26
+keypool added key 27, size=27
+keypool added key 28, size=28
+keypool added key 29, size=29
+keypool added key 30, size=30
+keypool added key 31, size=31
+keypool added key 32, size=32
+keypool added key 33, size=33
+keypool added key 34, size=34
+keypool added key 35, size=35
+keypool added key 36, size=36
+keypool added key 37, size=37
+keypool added key 38, size=38
+keypool added key 39, size=39
+keypool added key 40, size=40
+keypool added key 41, size=41
+keypool added key 42, size=42
+keypool added key 43, size=43
+keypool added key 44, size=44
+keypool added key 45, size=45
+keypool added key 46, size=46
+keypool added key 47, size=47
+keypool added key 48, size=48
+keypool added key 49, size=49
+keypool added key 50, size=50
+keypool added key 51, size=51
+keypool added key 52, size=52
+keypool added key 53, size=53
+keypool added key 54, size=54
+keypool added key 55, size=55
+keypool added key 56, size=56
+keypool added key 57, size=57
+keypool added key 58, size=58
+keypool added key 59, size=59
+keypool added key 60, size=60
+keypool added key 61, size=61
+keypool added key 62, size=62
+keypool added key 63, size=63
+keypool added key 64, size=64
+keypool added key 65, size=65
+keypool added key 66, size=66
+keypool added key 67, size=67
+keypool added key 68, size=68
+keypool added key 69, size=69
+keypool added key 70, size=70
+keypool added key 71, size=71
+keypool added key 72, size=72
+keypool added key 73, size=73
+keypool added key 74, size=74
+keypool added key 75, size=75
+keypool added key 76, size=76
+keypool added key 77, size=77
+keypool added key 78, size=78
+keypool added key 79, size=79
+keypool added key 80, size=80
+keypool added key 81, size=81
+keypool added key 82, size=82
+keypool added key 83, size=83
+keypool added key 84, size=84
+keypool added key 85, size=85
+keypool added key 86, size=86
+keypool added key 87, size=87
+keypool added key 88, size=88
+keypool added key 89, size=89
+keypool added key 90, size=90
+keypool added key 91, size=91
+keypool added key 92, size=92
+keypool added key 93, size=93
+keypool added key 94, size=94
+keypool added key 95, size=95
+keypool added key 96, size=96
+keypool added key 97, size=97
+keypool added key 98, size=98
+keypool added key 99, size=99
+keypool added key 100, size=100
+keypool added key 101, size=101
+keypool reserve 1
+keypool keep 1
+ wallet                  231ms
+init message: Loading addresses...
+ERROR: CAddrman::Read() : open failed
+Invalid or missing peers.dat; recreating
+Loaded 0 addresses from peers.dat  0ms
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+dnsseed thread start
+Loading addresses from DNS seeds (could take a while)
+0 addresses found from DNS seeds
+dnsseed thread exit
+net thread start
+addcon thread start
+opencon thread start
+msghand thread start
+dumpaddr thread start
+: To use signatumd, you must set a rpcpassword in the configuration file:
+/home/bh/.signatum/signatum.conf
+It is recommended you use the following random password:
+rpcuser=signatumrpc
+rpcpassword=Gw8hXBsZsLyuiCbKNYgP4dMRH3yDPpUxWSnCynojrNZa
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %s | mail -s "Signatum Alert" admin@foo.com
+
+init message: Done loading
+Shutdown : In progress...
+dumpaddr thread stop
+addcon thread interrupt
+opencon thread interrupt
+msghand thread interrupt
+StopNode()
+Shutdown : done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Signatum version v1.0.0.0-g32a928e (2017-09-29 15:39:13 +0500)
+Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+Startup time: 10/02/17 05:54:37
+Default data directory /home/bh/.signatum
+Used data directory /home/bh/.signatum
+init message: Verifying database integrity...
+dbenv.open LogDir=/home/bh/.signatum/database ErrorFile=/home/bh/.signatum/db.log
+Bound to [::]:6666
+Bound to 0.0.0.0:6666
+init message: Loading block index...
+Opening LevelDB in /home/bh/.signatum/txleveldb
+Transaction index version is 70510
+Opened LevelDB successfully
+LoadBlockIndex(): hashBestChain=242a87ff77a02f7d322dc5b60f7a90c7561135587f8454583b6efe844a34ca9a  height=0  trust=1048577  date=10/02/17 05:44:20
+Verifying last 0 blocks at level 1
+ block index               6ms
+init message: Loading wallet...
+nFileVersion = 1000000
+Keys: 101 plaintext, 0 encrypted, 101 w/ metadata, 101 total
+ wallet                   40ms
+init message: Loading addresses...
+Loaded 0 addresses from peers.dat  1ms
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+dnsseed thread start
+Loading addresses from DNS seeds (could take a while)
+msghand thread start
+0 addresses found from DNS seeds
+dnsseed thread exit
+net thread start
+dumpaddr thread start
+opencon thread start
+init message: Done loading
+addcon thread start
+msghand thread interrupt
+dumpaddr thread stop
+opencon thread interrupt
+addcon thread interrupt
+net thread interrupt
+Shutdown : In progress...
+StopNode()
+Shutdown : done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Signatum version v1.0.0.0-g32a928e (2017-09-29 15:39:13 +0500)
+Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+Startup time: 10/02/17 05:55:45
+Default data directory /home/bh/.signatum
+Used data directory /home/bh/.signatum
+init message: Verifying database integrity...
+dbenv.open LogDir=/home/bh/.signatum/database ErrorFile=/home/bh/.signatum/db.log
+Bound to [::]:6666
+Bound to 0.0.0.0:6666
+init message: Loading block index...
+Opening LevelDB in /home/bh/.signatum/txleveldb
+Transaction index version is 70510
+Opened LevelDB successfully
+LoadBlockIndex(): hashBestChain=242a87ff77a02f7d322dc5b60f7a90c7561135587f8454583b6efe844a34ca9a  height=0  trust=1048577  date=10/02/17 05:44:20
+Verifying last 0 blocks at level 1
+ block index               5ms
+init message: Loading wallet...
+nFileVersion = 1000000
+Keys: 101 plaintext, 0 encrypted, 101 w/ metadata, 101 total
+ wallet                   38ms
+init message: Loading addresses...
+Loaded 0 addresses from peers.dat  0ms
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+dnsseed thread start
+Loading addresses from DNS seeds (could take a while)
+0 addresses found from DNS seeds
+dnsseed thread exit
+addcon thread start
+net thread start
+msghand thread start
+opencon thread start
+dumpaddr thread start
+init message: Done loading
+opencon thread interrupt
+addcon thread interrupt
+dumpaddr thread stop
+msghand thread interrupt
+net thread interrupt
+Shutdown : In progress...
+StopNode()
+Shutdown : done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Signatum version v1.0.0.0-g32a928e (2017-09-29 15:39:13 +0500)
+Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+Startup time: 10/02/17 05:56:37
+Default data directory /home/bh/.signatum
+Used data directory /home/bh/.signatum
+init message: Verifying database integrity...
+dbenv.open LogDir=/home/bh/.signatum/database ErrorFile=/home/bh/.signatum/db.log
+Bound to [::]:6666
+Bound to 0.0.0.0:6666
+init message: Loading block index...
+Opening LevelDB in /home/bh/.signatum/txleveldb
+Transaction index version is 70510
+Opened LevelDB successfully
+LoadBlockIndex(): hashBestChain=242a87ff77a02f7d322dc5b60f7a90c7561135587f8454583b6efe844a34ca9a  height=0  trust=1048577  date=10/02/17 05:44:20
+Verifying last 0 blocks at level 1
+ block index               8ms
+init message: Loading wallet...
+nFileVersion = 1000000
+Keys: 101 plaintext, 0 encrypted, 101 w/ metadata, 101 total
+ wallet                   35ms
+init message: Loading addresses...
+Loaded 0 addresses from peers.dat  0ms
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+dnsseed thread start
+Loading addresses from DNS seeds (could take a while)
+addcon thread start
+0 addresses found from DNS seeds
+dnsseed thread exit
+msghand thread start
+opencon thread start
+dumpaddr thread start
+init message: Done loading
+net thread start
+keypool added key 102, size=101
+keypool reserve 2
+keypool return 2
+ERROR: CheckProofOfWork() : hash doesn't match nBits
+ERROR: CBlock::ReadFromDisk() : errors in block header
+Adding fixed seed nodes as DNS doesn't seem to be available.
+dumpaddr thread stop
+addcon thread interrupt
+msghand thread interrupt
+opencon thread interrupt
+net thread interrupt
+Shutdown : In progress...
+StopNode()
+Shutdown : done
